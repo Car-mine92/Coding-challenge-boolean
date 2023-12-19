@@ -1,0 +1,88 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+
+  }
+
+/* classe contenente tutta la pagina con i tag e centrarli nella pagina.
+Misure dei margini e dei padding prese con l`aiuto dello strumento per sviluppatori
+di Google Chrome*/
+.contenitore{
+  width: 1000px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px 10px 10px 10px;
+  margin:auto;
+  margin-top: 2%;
+  text-align: center;
+  font-family: system-ui;
+  padding-top:  5%;
+  padding-left: 2%;
+  padding-right:  2%;
+  padding-bottom: 5%
+  }
+
+img{
+  width: 20%;
+  }
+/*colore ricavato con l'aiuto di gimp con lo strumento ricerca colore */
+.Intestazione{
+  color: #00dd00;
+  }
+
+nav{
+  margin: auto;
+  background-color: #00dd00;
+  padding: 1%;
+  width: 80%;
+  }
+
+.utente{
+  text-align: left;
+  color: white;
+  width: 83%;
+  margin: auto;
+  padding: 1%;
+  }
+
+/*font size-adjust e' una funzione trovata con ricerca Google su w3school*/
+.nome{
+  font-weight: bold;
+  font-size-adjust: 0.65;
+  }
+/*classe creata con selettore :before per inserire l'html entits prima della
+ posizione dello scooter*/
+.freccia::before{
+  content: "\21A6";
+  }
+
+/*line-height e' una funzione trovata con ricerca Google su w3school e serve per
+aumentare o diminuire lo spazio tra i tag p*/
+p{
+  font-size: 85%;
+  line-height: 0.7;
+  }
+
+/*classe creata per dare le dimensioni preimpostate al div contenente lo stato
+di carica*/
+.stato{
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: left;
+  }
+
+/*classe creata per dare colore e lunghezza dello stato carica
+inserita nell'html come seconda classe*/
+.carica1{
+  width: 30%;
+  background-color: orange;
+  }
+
+.carica2{
+  width: 50%;
+  background-color: #00dd00;
+  }
+
+.carica3{
+  width: 10%;
+  background-color: #be4141;
+  }

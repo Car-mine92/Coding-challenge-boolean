@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Scoters Lim</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <div class="contenitore">
+      <!-- Intestazione -->
+      <header>
+
+        <img src="img/logo.png" alt="">
+        <h2 class="Intestazione">Taking Booleaners from A to B</h2>
+
+      </header>
+
+      <!-- Barra di navigazione con relativi pulsanti-->
+      <nav>
+
+        <button type="button" name="button">Prenota</button>
+        <button type="button" name="button">Annulla prenotazione</button>
+        <button type="button" name="button">Accendi luci</button>
+
+      </nav>
+
+      <!-- Corpo del sito con nomi degli utenti e stato carica -->
+      <main>
+
+        <div class="utente">
+
+          <input type="checkbox" name="" value="">
+
+          <span class="nome">Monopattino Gino22</span>
+
+          <!--ho inserito la classe freccia per inserire un html entits tramite
+          css per non sporcare il codice html-->
+          <!--tag p per indicare posizione dello scooter-->
+          <p class="freccia">Via Guadalametri - a 220 metri da te</p>
+          <p>Stato carica:</p>
+
+          <!--ho utilizzato un div vuoto per creare la barra di stato
+          con doppia classe per non rendere ridondante il codice css
+          non ho utilizzato il tag progress perche' si visualizza diversamente
+          su ogni browser-->
+          <div class="stato carica1"></div>
+
+        </div>
+
+        <div class="utente">
+
+            <input type="checkbox" name="" value="">
+
+            <span class="nome">Monopattino Mike24</span>
+
+            <p class="freccia">Via Ricciardoni - a 420 metri da te</p>
+            <p>Stato carica:</p>
+
+            <div class="stato carica2"></div>
+
+        </div>
+
+        <div class="utente">
+
+              <input type="checkbox" name="" value="">
+
+              <span class="nome">Monopattino Fede154</span>
+
+              <p class="freccia">Via Mentarini - a 490 metri da te</p>
+              <p>Stato carica:</p>
+
+              <div class="stato carica3"></div>
+
+        </div>
+
+      </main>
+
+    </div>
+
+  </body>
+
+</html>
